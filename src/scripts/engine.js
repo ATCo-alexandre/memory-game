@@ -48,6 +48,6 @@ function checkMatch() {
     }
     openCards = [];
     if (document.querySelectorAll("boxMatch").length === emojis.length) {
-        alert("Você vencceu!!!");
+        alert("Você completou todos os pares. Parabéns!");
     }
 }
